@@ -1,10 +1,10 @@
-# API de Gestión de Tareas (TaskManager) 🚀
+# API de Gestión de Tareas (TaskManager)
 
 Una Web API RESTful de nivel intermedio construida con **.NET**, diseñada para demostrar principios de arquitectura limpia, autenticación segura y gestión de bases de datos relacionales. 
 
 Este proyecto fue desarrollado para exhibir habilidades sólidas en el backend, enfocándose específicamente en la seguridad del flujo de usuarios y la integración con Entity Framework Core.
 
-## ✨ Características Principales
+## Características Principales
 
 * **Autenticación y Autorización JWT**: Endpoints seguros protegidos mediante JSON Web Tokens.
 * **Control de Acceso Basado en Roles (RBAC)**: Permisos estrictos y diferenciados para los roles de `User` (Usuario) y `Admin` (Administrador).
@@ -13,7 +13,7 @@ Este proyecto fue desarrollado para exhibir habilidades sólidas en el backend, 
 * **Validación de Datos y DTOs**: Separación de los modelos internos de base de datos de las respuestas de la API para prevenir vulnerabilidades de *over-posting* y exponer únicamente la información necesaria.
 * **Borrado en Cascada (Cascade Deletion)**: Reglas estrictas a nivel de base de datos para mantener la integridad referencial de la información.
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 * **Framework**: .NET Web API (C#)
 * **ORM**: Entity Framework Core
@@ -21,10 +21,10 @@ Este proyecto fue desarrollado para exhibir habilidades sólidas en el backend, 
 * **Seguridad**: JWT Bearer Tokens, BCrypt.Net-Next
 * **Documentación**: Swagger / OpenAPI
 
-## 🚦 Primeros Pasos
+## Primeros Pasos
 
 ### Requisitos Previos
-* Tener instalado el [.NET SDK](https://dotnet.microsoft.com/download) en tu equipo.
+* Tener instalado el [.NET SDK](https://dotnet.microsoft.com/es-es/download/dotnet/8.0) en tu equipo.
 * Una herramienta para probar la API (La interfaz de Swagger viene incluida por defecto, o puedes usar Postman).
 
 ### Instalación y Configuración
@@ -43,7 +43,7 @@ Este proyecto fue desarrollado para exhibir habilidades sólidas en el backend, 
 4. **Acceder a la Interfaz de Swagger:**
    Abre tu navegador y dirígete a `http://localhost:<puerto>/swagger` para interactuar visualmente con la API.
 
-## 📡 Endpoints de la API
+## Endpoints de la API
 
 ### Autenticación (Auth)
 | Método | Endpoint | Descripción | Acceso |
